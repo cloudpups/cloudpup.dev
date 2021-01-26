@@ -1,0 +1,34 @@
+:root {
+    --main-background-color: #C6F0FF;
+    --main-font: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: var(--main-background-color);
+    font-family: var(--main-font);
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
+
+#sky-box {
+    margin-bottom: 30px;
+}
+
+#sky-box * {
+    margin: 0;
+}
+
+.social-logo {
+    max-width: 5em;
+}
